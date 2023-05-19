@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --blanco: #ffffff;
+  --negro: #000000;
+  --gris-claro: #f5f5f5;
+  --gris-medio: #e6e6e6;
+  --gris-oscuro: #c4c4c4;
+  --rojo: #ff0000;
+  --dorado: #ffd700;
+  --ámbar: #e78d17;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  overflow-x: hidden;
+}
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  height: 300px;
+}
+
+.sombra {
+  box-shadow: 5px 5px 15px gray;
+}
+
+.contenedor_productos {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-dorado {
+  color: var(--ámbar);
+}
+
+
+.informacion_tienda {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+  background-color: var(--gris-claro);
+}
+
+.informacion_tienda p {
+  font-weight: 300;
+}
+
+.producto {
+  display: flex;
+  width: 400px;
+  height: 500px;
+  margin: 10px;
+  color: var(--gris-medio);
+  box-shadow: 8px 8px 15px gray, inset 0px -50px 50px rgb(0, 0, 0);
+
+  justify-content: center;
+  align-items: end;
+}
+
+
+.producto:nth-child(1) {
+  background-image: url("/img/producto_1.jpg");
+  background-size: cover;
+}
+
+.producto:nth-child(2) {
+  background-image: url("/img/producto_2.jpg");
+  background-size: cover;
+}
+
+.producto:nth-child(3) {
+  background-image: url("/img/producto_3.jpg");
+  background-size: cover;
+}
+
+.ubicacion {
+  margin: 24px;
+  display: flex;
+}
+
+.ubicacion div:nth-child(2){
+  align-items: center;
+
+}
+
+.mapa {
+  margin-right: 24px;
+  width: 50%;
+}
+
+#numeros-local div {
+  padding: 0 20px 0 0;
+  height: 48px;
+}
+
+#numeros-local div:not(:last-child) {
+  border-right: 2px solid var(--ámbar);
+}
+
+#numeros-local div:not(:first-child) {
+  margin-left: 20px;
+}
+
+
+#numeros-local p {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .ubicacion {
+    margin: 10px;
+    flex-direction: column;
+  }
+  .mapa {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  .contenedor_productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .producto {
+    width: 325px;
+    height: 425px;
+    margin: 25px 0px;
+  }
+  .informacion_tienda {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
