@@ -8,6 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
   <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/text_styles.css">
+  <link rel="stylesheet" href="/css/cards.css">
   <title>Gonoshop</title>
 </head>
 
@@ -27,13 +29,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Tienda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#section_productos">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="#section_ubicacion">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_contactos">Contáctenos</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -87,33 +92,38 @@
   </section>
 
   <!-- PRODUCTOS -->
-  <section style="padding-top: 24px; padding-bottom: 70px;">
+  <section style="padding-top: 24px; padding-bottom: 70px;" id="section_productos">
 
-    <h1 class="p-3 fs-2 text-center">
+    <h1 class="p-3 fs-2 text-center underline_text">
       NUESTROS PRODUCTOS
     </h1>
 
-    <div class="contenedor_productos">
-      <div class="producto">
+    <div class="contenedor_tarjeta">
+      <div class="tarjeta tarjeta_animada">
         <h3>Camisas Estampadas</h3>
       </div>
-      <div class="producto">
+      <div class="tarjeta tarjeta_animada">
         <h3>Ropa Deportiva</h3>
       </div>
-      <div class="producto">
+      <div class="tarjeta tarjeta_animada">
         <h3>Buzos</h3>
       </div>
+
     </div>
 
   </section>
 
-
   <!-- ACERCA DE NOSOTROS -->
-  <section class="informacion_tienda">
-    <h1 class="p-3 fs-2">
-      Equipo pequeño con <span class="texto-dorado">RESULTADOS GRANDES</span>
-    </h1>
-
+  <section class="informacion_tienda" id="section_ubicacion">
+    <div class="texto_animado">
+      <h1 class="fs-2" style="padding: 0px; margin: 0px; margin-right: 10px;">
+        Equipo pequeño con 
+      </h1>
+      <h1 class="fs-2" style="padding: 0px; margin: 0px;">
+        <span class="texto-dorado" id="type-writer"> RESULTADOS GRANDES</span>
+      </h1>
+    </div>
+    
     <p class="p-3 fs-4">
       Siempre buscamos las personas adecuadas que nos ayuden en
       el correcto desarrollo de nuestro proyecto, por lo que nuestros estandares de calidad son muy altos
@@ -126,6 +136,7 @@
 
     <div>
       <h2>Ubicado en Bogotá DC</h2>
+      <br>
       <p class="fs-5 text-body" style="font-weight: 300;">
         <b>GONOSHOP</b>, una tienda de ropa que nació en Bogotá DC, una ciudad llena de diversidad, cultura y
         creatividad. Nuestro catalogo incluye buzos para que te abriguen con estilo y comodidad. Nuestros buzos
@@ -148,17 +159,37 @@
           <p>Crimen</p>
         </div>
       </div>
+
     </div>
   </section>
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,32L15,80C30,128,60,224,90,218.7C120,213,150,107,180,85.3C210,64,240,128,270,170.7C300,213,330,235,360,240C390,245,420,235,450,192C480,149,510,75,540,64C570,53,600,107,630,122.7C660,139,690,117,720,138.7C750,160,780,224,810,234.7C840,245,870,203,900,186.7C930,171,960,181,990,170.7C1020,160,1050,128,1080,144C1110,160,1140,224,1170,224C1200,224,1230,160,1260,144C1290,128,1320,160,1350,165.3C1380,171,1410,149,1425,138.7L1440,128L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"></path></svg>
+  <br>
+  <hr style="margin-left: 30px; margin-right: 30px;">
 
+  <div id="#section_contactos">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="/js/writer.js"></script>
-</body>
 
+</body>
 </html>
