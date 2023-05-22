@@ -33,7 +33,7 @@ body {
 }
 
 .sombra {
-  box-shadow: 5px 5px 15px gray;
+  box-shadow: 0px 5px 5px rgba(120, 120, 120, 0.5);
 }
 
 .informacion_tienda {
@@ -65,7 +65,7 @@ body {
 }
 
 .ubicacion {
-  margin: 10%;
+  padding: 10%;
   display: flex;
 }
 
@@ -102,9 +102,41 @@ body {
   gap: 0px;
 }
 
+#seccion_contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 25%;
+}
+
+#seccion_contacto form {
+  width: 100%;
+}
+
+#seccion_contacto input, button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+} 
+
+#seccion_contacto input {
+  outline: gray solid 1px;
+  background: transparent;
+}
+
+#seccion_contacto input:focus {
+  outline: gray solid 1px;
+}
+
+#seccion_contacto .contenedor_form:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 700px) {
   .ubicacion {
-    margin: 10px;
+    padding: 10px;
     flex-direction: column;
   }
   .mapa {
@@ -120,4 +152,8 @@ body {
     justify-content: center;
     align-items: center;
   }
+  #seccion_contacto {
+    padding: 24px 20px;
+  }
+  
 }

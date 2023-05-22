@@ -1,7 +1,16 @@
+@font-face {
+  font-family: "SpriteGraffitiShadow";
+  src: url("/fonts/Sprite_Graffiti_Shadow.otf") format("opentype")
+}
 .texto-dorado {
   color: var(--ámbar);
 }
 
 .underline_text {
   text-decoration: underline;
+}
+
+#logo {
+  font-size: 1.7em;
+  font-family: "SpriteGraffitiShadow", sans-serif;
 }

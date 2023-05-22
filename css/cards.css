@@ -23,6 +23,7 @@
 @keyframes movimiento_tarjeta_1 {
   to {
     transform: scale(1.1);
+    text-decoration: underline;
   }
 }
 
