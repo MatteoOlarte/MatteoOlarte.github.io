@@ -1,8 +1,28 @@
-[
-  {
-    "id": 1,
-    "nombre": "Camisa de algodón",
-    "precio": 25000,
-    "info": "Una camisa cómoda y elegante de color azul claro, con botones y cuello. Ideal para cualquier ocasión."
-  }
-]
+{
+  "camisas": [
+    {
+      "id": "hawaiana_azul",
+      "nombre": "Hawaiana Azul",
+      "imagen": "/img/camisas/hawaiana_azul.png",
+      "info": "¿Buscas una camisa fresca y divertida para el verano? Esta camisa hawaiana azul es perfecta para ti. Tiene un diseño original con estampados de flores y palmeras que te harán sentir como en el paraíso. Su tela es suave y ligera, ideal para los días calurosos.",
+      "precio": 40000.00,
+      "existencias": 25,
+      "compras_totales": 0
+    },
+    {
+      "id": "hawaiana_roja",
+      "nombre": "Hawaiana Roja",
+      "imagen": "/img/camisas/hawaiana_roja.png",
+      "info": "¿Buscas una camisa fresca y divertida para el verano? Esta camisa hawaiana roja es perfecta para ti. Tiene un diseño original con estampados de flores y palmeras que te harán sentir como en el paraíso. Su tela es suave y ligera, ideal para los días calurosos.",
+      "precio": 40000.00,
+      "existencias": 25,
+      "compras_totales": 0
+    }
+  ],
+  "deportiva": [
+
+  ],
+  "buzos": [
+    
+  ]
+}

@@ -23,7 +23,7 @@
     </header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sombra sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" id="logo"><b>GONOSHOP</b></a>
+        <a class="navbar-brand" id="logo" href="/index.html"><b>GONOSHOP</b></a>
 
         <button
           style="width: 100px"
@@ -115,35 +115,27 @@
           <div class="col-md-6">
             <img
               class="card-img-top mb-5 mb-md-0"
+              id="image_view"
               src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg"
               alt="..."
             />
           </div>
           <div class="col-md-6">
-            <div class="small mb-1">SKU: BST-498</div>
-            <h1 class="display-5 fw-bolder">Shop item template</h1>
+            <div class="small mb-1" id="product_id">SKU: BST-498</div>
+            <h1 class="display-5 fw-bolder" id="product_name">Shop item template</h1>
             <div class="fs-5 mb-5">
-              <span class="text-decoration-line-through">$45.00</span>
-              <span>$40.00</span>
+              <span id="product_price">$40.00</span>
             </div>
-            <p class="lead">
+            <p class="lead" id="product_info">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Praesentium at dolorem quidem modi. Nam sequi consequatur
               obcaecati excepturi alias magni, accusamus eius blanditiis
               delectus ipsam minima ea iste laborum vero?
             </p>
             <div class="d-flex">
-              <input
-                class="form-control text-center me-3"
-                id="inputQuantity"
-                type="number"
-                value="1"
-                style="max-width: 3rem"
-                placeholder="s"
-              />
               <button class="btn btn-outline-dark flex-shrink-0" type="button">
                 <i class="bi-cart-fill me-1"></i>
-                Add to cart
+                Comprar
               </button>
             </div>
           </div>
@@ -319,8 +311,6 @@
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="/js/product_view.js"></script>
   </body>
 </html>
