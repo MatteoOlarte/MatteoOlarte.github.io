@@ -20,7 +20,7 @@ function CreateProductView(id = '', nombre = 'Producto', imagen = ' ', precio = 
   infoPrecio.innerText = precioFormato
   infoButton.innerText = 'Ver Producto'
   infoButton.onclick = function () {
-    sessionStorage.setItem('product_type', 'camisas')
+    sessionStorage.setItem('product_type', 'buzo')
     sessionStorage.setItem('product_id', id)
     location.href = 'visualizar_producto.html'
   }
@@ -36,14 +36,14 @@ function CreateProductView(id = '', nombre = 'Producto', imagen = ' ', precio = 
 fetch('/data.json')
   .then((response) => response.json())
   .then((data) => {
-    let camisas = data.camisas
+    let buzos = data.buzos
 
     container.textContent = '';
-    for (camisa of camisas) {
-      let id = camisa.id
-      let nombre = camisa.nombre
-      let precio = camisa.precio
-      let imagen = camisa.imagen
+    for (buzo of buzos) {
+      let id = buzo.id
+      let nombre = buzo.nombre
+      let precio = buzo.precio
+      let imagen = buzo.imagen
 
       container.appendChild(CreateProductView(id, nombre, imagen, precio))
     }
