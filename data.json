@@ -5,7 +5,7 @@
       "nombre": "Hawaiana Azul",
       "imagen": "/img/camisas/hawaiana_azul.png",
       "info": "¿Buscas una camisa fresca y divertida para el verano? Esta camisa hawaiana azul es perfecta para ti. Tiene un diseño original con estampados de flores y palmeras que te harán sentir como en el paraíso. Su tela es suave y ligera, ideal para los días calurosos.",
-      "precio": 45000.0,
+      "precio": 50900.0,
       "existencias": 10,
       "compras_totales": 0
     },
@@ -16,6 +16,15 @@
       "info": "¿Buscas una camisa fresca y divertida para el verano? Esta camisa hawaiana roja es perfecta para ti. Tiene un diseño original con estampados de flores y palmeras que te harán sentir como en el paraíso. Su tela es suave y ligera, ideal para los días calurosos.",
       "precio": 40000.0,
       "existencias": 25,
+      "compras_totales": 0
+    },
+    {
+      "id": "hawaiana_morada",
+      "nombre": "Hawaiana Morada",
+      "imagen": "/img/camisas/hawaiana_morada.png",
+      "info": "¿Buscas una camisa fresca y divertida para el verano? Esta camisa hawaiana morada es perfecta para ti. Tiene un diseño original con estampados de flores y palmeras que te harán sentir como en el paraíso. Su tela es suave y ligera, ideal para los días calurosos.",
+      "precio": 45000.0,
+      "existencias": 10,
       "compras_totales": 0
     },
     {
@@ -40,63 +49,72 @@
       "id": "camisa_3",
       "nombre": "Camisa Leñador",
       "imagen": "/img/camisas/camisa3.jpg",
-      "info": "Camisa para hombre color rojo y negro. Manga larga.Cuadros.Logo bordado.Diseño regular. Perfecta para un lunes de oficina. ",
-      "precio": 0,
-      "existencias": 0,
-      "compras_totales": 0
+      "info": "Camisa para hombre color rojo y negro, manga larga, cuadros, logo bordado, diseño regular. Perfecta para un viernes de relajo.",
+      "precio": 80000,
+      "existencias": 100,
+      "compras_totales": 40
     },
     {
       "id": "camisa_4",
-      "nombre": "Camisa xxxx",
+      "nombre": "Camisa Roja",
       "imagen": "/img/camisas/camisa4.jpg",
-      "info": "",
-      "precio": 0,
-      "existencias": 0,
-      "compras_totales": 0
+      "info": "Camisa Roja US Polo Assn, estilo casual con bolsillo frontal, Recuerda que la talla en el empaque y en el producto puede diferir con la numeración colombiana",
+      "precio": 80000,
+      "existencias": 100,
+      "compras_totales": 15
     },
     {
       "id": "camisa_5",
-      "nombre": "Camisa xxxx",
+      "nombre": "Camisa blanca",
       "imagen": "/img/camisas/camisa5.jpg",
-      "info": "",
-      "precio": 0,
-      "existencias": 0,
-      "compras_totales": 0
+      "info": "Camisa Oxford dotación Empresarial Elegante Manga Larga, costuras de calidad y excelente material.",
+      "precio": 40000,
+      "existencias": 100,
+      "compras_totales": 50
     },
     {
       "id": "camisa_6",
-      "nombre": "Camisa xxxx",
+      "nombre": "Camisa azul de cuadros",
       "imagen": "/img/camisas/camisa6.jpg",
-      "info": "",
-      "precio": 0,
-      "existencias": 0,
-      "compras_totales": 0
+      "info": "Camisa original para hombre en algodón Pima tacto suave y con colores únicos, botones contramarcados y con logo bordado en el frente.",
+      "precio": 70000,
+      "existencias": 100,
+      "compras_totales": 30
     },
     {
       "id": "camisa_7",
-      "nombre": "Camisa xxxx",
+      "nombre": "Camisa roja y blanca",
       "imagen": "/img/camisas/camisa7.jpg",
-      "info": "",
-      "precio": 0,
-      "existencias": 0,
-      "compras_totales": 0
+      "info": "Camisa de leñador en colores rojo y blanco, perfecto para combinar con tonos oscuros y asi resaltar los colores de la camisa.",
+      "precio": 90000,
+      "existencias": 100,
+      "compras_totales": 50
     },
     {
       "id": "camisa_9",
-      "nombre": "Camisa xxxx",
+      "nombre": "Camisa beige",
       "imagen": "/img/camisas/camisa9.jpg",
-      "info": "",
-      "precio": 0,
-      "existencias": 0,
-      "compras_totales": 0
+      "info": "Camisa de mangas largas en muselina vaporosa de algodón. Modelo de corte estándar con cuello resort, tapeta lisa y bajo recto con aberturas laterales.",
+      "precio": 120000,
+      "existencias": 100,
+      "compras_totales": 70
     },
     {
       "id": "camisa_10",
-      "nombre": "Camisa xxxx",
+      "nombre": "Camisa café",
       "imagen": "/img/camisas/camisa10.jpg",
-      "info": "",
-      "precio": 0,
-      "existencias": 0,
+      "info": "Esta camisa es un básico café, los detalles la convierten en una prenda ideal para formar parte de un look diario con un toque casual que te harán ver mejor.",
+      "precio": 100000,
+      "existencias": 100,
+      "compras_totales": 62
+    },
+    {
+      "id": "hawaiana_verde",
+      "nombre": "Hawaiana Verde",
+      "imagen": "/img/camisas/hawaiana_verde.png",
+      "info": "¿Buscas una camisa fresca y divertida para el verano? Esta camisa hawaiana verde es perfecta para ti. Tiene un diseño original con estampados de flores y palmeras que te harán sentir como en el paraíso. Su tela es suave y ligera, ideal para los días calurosos.",
+      "precio": 45000.0,
+      "existencias": 10,
       "compras_totales": 0
     }
   ],
@@ -157,13 +175,85 @@
       "compras_totales": 999
     },
     {
-      "id": "chaqueta_mci",
-      "nombre": "Chaqueta MCI",
-      "imagen": "/img/deportiva/chaqueta_mci.PNG",
-      "info": "",
+      "id": "sudadera_1",
+      "nombre": "Adidas Oversize",
+      "imagen": "/img/deportiva/sudadera1.jpg",
+      "info": "Haciendo un llamado a todos los futuros deportistas estrella. Tu peque lucirá un estilo deportivo único con esta sudadera para bebé. Tiene el inconfundible toque de adidas con las icónicas 3 Rayas, un distintivo ribete y tejido tricot brillante.",
+      "precio": 180000,
+      "existencias": 100,
+      "compras_totales": 70
+    },
+    {
+      "id": "sudadera_2",
+      "nombre": "Sudadera Roja y negra",
+      "imagen": "/img/deportiva/sudadera2.jpg",
+      "info": "Este producto está hecho con Primeblue, un tejido reciclado de alto rendimiento creado con Parley Ocean Plastic.",
+      "precio": 300000,
+      "existencias": 100,
+      "compras_totales": 120
+    },
+    {
+      "id": "sudadera_3",
+      "nombre": "Sudadera blanca y negra",
+      "imagen": "/img/deportiva/sudadera3.jpg",
+      "info": "Sudadera holgada de manga larga con capucha blanca y negra para hombre, estilo hip-hop, punk, ropa de calle, ropa casual de moda",
+      "precio": 100000,
+      "existencias": 100,
+      "compras_totales": 122
+    },
+    {
+      "id": "sudadera_4",
+      "nombre": "Sudadera Ironman",
+      "imagen": "/img/deportiva/sudadera4.jpg",
+      "info": "Sudadera deportiva conjunto en algodón perchado Mónaco. con pretina y puños rib en algodón.Buzo deportivo con capota forrada, bolsillo canguro delantero, cordón ajustable en capota, algodón perchado Mónaco.",
       "precio": 0,
       "existencias": 0,
       "compras_totales": 0
+    },
+    {
+      "id": "sudadera_5",
+      "nombre": "Sudadera Mujer NEGRA",
+      "imagen": "/img/deportiva/sudadera5.jpg",
+      "info": "Sudadera Hoodie Crop Topn + Jogger Krunner Mujer",
+      "precio": 170000,
+      "existencias": 100,
+      "compras_totales": 98
+    },
+    {
+      "id": "sudadera_6",
+      "nombre": "Sudadera Blanca",
+      "imagen": "/img/deportiva/sudadera6.jpg",
+      "info": "Juegos de 2 piezas de chándal para hombre sudadera pantalones parte inferior informal deportivo conjunto de deportes traje para correr",
+      "precio": 120000,
+      "existencias": 100,
+      "compras_totales": 45
+    },
+    {
+      "id": "sudadera_7",
+      "nombre": "Sudadera gris",
+      "imagen": "/img/deportiva/sudadera7.jpg",
+      "info": "Acércate a tus metas de entrenamiento con esta sudadera adidas para jóvenes. La capucha y bolsillos canguro ofrecen un mayor abrigo a tus orejas",
+      "precio": 180000,
+      "existencias": 100,
+      "compras_totales": 57
+    },
+    {
+      "id": "sudadera_9",
+      "nombre": "Sudadera azul y blanca",
+      "imagen": "/img/deportiva/sudadera9.jpg",
+      "info": "Con esta sudadera adidas tienes opciones de sobra. No solo porque el buzo con capucha y el pantalón se pueden usar juntos o por separado, sino también porque su diseño minimalista se adapta a tu día a día con estilo.",
+      "precio": 220000,
+      "existencias": 100,
+      "compras_totales": 64
+    },
+    {
+      "id": "sudadera_10",
+      "nombre": "Sudadera mujer",
+      "imagen": "/img/deportiva/sudadera10.jpg",
+      "info": "Hermoso conjunto sudadera y chaqueta con cremallera y capota elaborado en tela anti fluido con logo Nike bordeado en ambas prendas",
+      "precio": 200000,
+      "existencias": 100,
+      "compras_totales": 45
     }
   ],
 
@@ -302,6 +392,24 @@
       "precio": 50000,
       "existencias": 20,
       "compras_totales": 10
+    },
+    {
+      "id": "zurdo_de_mierda",
+      "nombre": "El Zurdo",
+      "imagen": "/img/egg1.jpg",
+      "info": "Gustavo Petro es un zurdo populista que quiere destruir la economía de Colombia con sus ideas socialistas y estatistas. Es un demagogo que se aprovecha de la ignorancia y la pobreza de la gente para prometerles un paraíso que nunca va a llegar. Es un enemigo de la libertad, la propiedad y el mercado, y un aliado de los narcos, los terroristas y los dictadores. Es un guerrillero como presidente, su precio representa lo q ha robado como presidente",
+      "precio": 90000000,
+      "existencias": 1,
+      "compras_totales": 9999
+    },
+    {
+      "id": "my_doctor",
+      "nombre": "El Doctor",
+      "imagen": "/img/egg2.jpg",
+      "info": "El doctor Álvaro Uribe es un líder indiscutible de la derecha colombiana, un defensor de la libertad, la democracia y la seguridad. Su trayectoria política y profesional lo ha convertido en un referente nacional e internacional, que ha sabido enfrentar con valentía y firmeza los ataques de sus enemigos y las injusticias del sistema judicial. Su visión de país se basa en el respeto a la propiedad privada, el libre mercado, el estado de derecho y la soberanía nacional. Es un patriota que no se deja intimidar por las amenazas del socialismo, el narcoterrorismo y la corrupción. Uribe es el ejemplo de que se puede ser exitoso sin renunciar a los principios y valores que nos hacen grandes. Es el héroe que Colombia necesita y merece.",
+      "precio": 90000000,
+      "existencias": 1,
+      "compras_totales": 9999
     }
   ]
 }
