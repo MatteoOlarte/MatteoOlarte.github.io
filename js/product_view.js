@@ -28,10 +28,9 @@ fetch('/data.json')
     })
 
     document.getElementById('product_name').innerText = producto.nombre
-    document.getElementById('product_id').innerText = producto.id
     document.getElementById('product_info').innerText = producto.info
     document.getElementById('product_price').innerText = precioFormato
     document.getElementById('image_view').setAttribute('src', producto.imagen)
     document.getElementById('product_stock').innerText = `¡${producto.existencias} Disponibles!`
-    sessionStorage.clear()
+    //sessionStorage.clear()
   })

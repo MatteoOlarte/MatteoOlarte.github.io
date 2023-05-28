@@ -30,6 +30,7 @@
   border-radius: 10px;
   background-color: var(--gris-medio);
   border: var(--gris-medio) solid 1px;
+  position: relative;
 }
 
 .producto .producto_imagen {
@@ -65,6 +66,16 @@
   margin: 5px 0 5px;
   background-color: #3f3f3f;
   color: white;
+}
+
+.producto .info i{
+  font-size: 1.7rem;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #3f3f3f;
+  text-decoration: none;
+  text-shadow: 2px 2px 50px white;
 }
 
 @media screen and (max-width: 600px) {

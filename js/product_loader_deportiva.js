@@ -11,6 +11,8 @@ function CreateProductView(id = '', nombre = 'Producto', imagen = ' ', precio = 
   let infoNombre = document.createElement('h1')
   let infoPrecio = document.createElement('p')
   let infoButton = document.createElement('button')
+  let carroDeCompras = document.createElement('a')
+  let carroDeComprasIcon = document.createElement('i')
 
   producto.className = 'producto'
   productoImagen.className = 'producto_imagen'
@@ -24,12 +26,16 @@ function CreateProductView(id = '', nombre = 'Producto', imagen = ' ', precio = 
     sessionStorage.setItem('product_id', id)
     location.href = 'visualizar_producto.html'
   }
+  carroDeCompras.className = 'info'
+  carroDeComprasIcon.className = 'fa-sharp fa-solid fa-cart-plus'
 
+  carroDeCompras.appendChild(carroDeComprasIcon)
   productoInfo.appendChild(infoNombre)
   productoInfo.appendChild(infoPrecio)
   productoInfo.appendChild(infoButton)
   producto.appendChild(productoImagen)
   producto.appendChild(productoInfo)
+  producto.appendChild(carroDeCompras)
   return producto
 }
 

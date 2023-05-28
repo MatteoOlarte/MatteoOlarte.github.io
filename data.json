@@ -26,49 +26,282 @@
       "precio": 50000.0,
       "existencias": 30,
       "compras_totales": 0
+    },
+    {
+      "id": "camisa_jh",
+      "nombre": "Camisa JH",
+      "imagen": "/img/camisas/camisa_jh.jpg",
+      "info": "Camiseta con las iniciales de nuestro creador de contenido favorito y un corazón demostrando que lo queremos.",
+      "precio": 100000,
+      "existencias": 100,
+      "compras_totales": 90
+    },
+    {
+      "id": "camisa_3",
+      "nombre": "Camisa Leñador",
+      "imagen": "/img/camisas/camisa3.jpg",
+      "info": "Camisa para hombre color rojo y negro. Manga larga.Cuadros.Logo bordado.Diseño regular. Perfecta para un lunes de oficina. ",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
+    },
+    {
+      "id": "camisa_4",
+      "nombre": "Camisa xxxx",
+      "imagen": "/img/camisas/camisa4.jpg",
+      "info": "",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
+    },
+    {
+      "id": "camisa_5",
+      "nombre": "Camisa xxxx",
+      "imagen": "/img/camisas/camisa5.jpg",
+      "info": "",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
+    },
+    {
+      "id": "camisa_6",
+      "nombre": "Camisa xxxx",
+      "imagen": "/img/camisas/camisa6.jpg",
+      "info": "",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
+    },
+    {
+      "id": "camisa_7",
+      "nombre": "Camisa xxxx",
+      "imagen": "/img/camisas/camisa7.jpg",
+      "info": "",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
+    },
+    {
+      "id": "camisa_9",
+      "nombre": "Camisa xxxx",
+      "imagen": "/img/camisas/camisa9.jpg",
+      "info": "",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
+    },
+    {
+      "id": "camisa_10",
+      "nombre": "Camisa xxxx",
+      "imagen": "/img/camisas/camisa10.jpg",
+      "info": "",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
     }
   ],
 
   "deportiva": [
-
+    {
+      "id": "colombia_home",
+      "nombre": "Colombia Home",
+      "imagen": "/img/deportiva/colombia_home.png",
+      "info": "¿Eres un fanático del fútbol y quieres apoyar a tu selección? Entonces no te puede faltar la camiseta de la selección colombia, la prenda oficial que usan los jugadores en los partidos. Esta camiseta está hecha de poliéster y elastano, lo que la hace ligera, transpirable y elástica. Tiene el escudo de la federación colombiana de fútbol en el pecho y el logo de adidas en el otro lado. La camiseta es de color amarillo, con detalles en azul y rojo en el cuello y las mangas. La camiseta tiene un corte ajustado que se adapta a tu cuerpo y te da una sensación de comodidad y seguridad. La camiseta es perfecta para usarla en los días de partido, para entrenar o para lucir tu pasión por el fútbol. No esperes más y consigue la tuya en nuestra tienda online, donde encontrarás las mejores ofertas y envíos gratis.",
+      "precio": 180000,
+      "existencias": 100,
+      "compras_totales": 110
+    },
+    {
+      "id": "argentina_home",
+      "nombre": "Camiseta Argentina 1",
+      "imagen": "/img/deportiva/argentina_home.png",
+      "info": "Vístete como un campeón! A lo largo de la historia del fútbol, esas tres rayas azules han representado un juego de pies fascinante y un compromiso inigualable.",
+      "precio": 230000,
+      "existencias": 100,
+      "compras_totales": 50
+    },
+    {
+      "id": "argentina_away",
+      "nombre": "Camiseta Argentina 2",
+      "imagen": "/img/deportiva/argentina_away.png",
+      "info": "A medida que enfrentan el mayor desafío del fútbol, la camiseta de Argentina lejos de adidas está impulsada por el orgullo nacional y la búsqueda de un mundo más justo",
+      "precio": 215000,
+      "existencias": 100,
+      "compras_totales": 42
+    },
+    {
+      "id": "pantaloneta_colombia",
+      "nombre": "Pantaloneta Colombia",
+      "imagen": "/img/deportiva/colombia_pant.PNG",
+      "info": "Unidad y armonía por encima de todo. Estos shorts de fútbol adidas lucen los colores clásicos del equipo de Colombia.",
+      "precio": 70000,
+      "existencias": 100,
+      "compras_totales": 22
+    },
+    {
+      "id": "chaqueta_mci",
+      "nombre": "Chaqueta MCI",
+      "imagen": "/img/deportiva/chaqueta_mci.PNG",
+      "info": "Muestra tu apoyo con esta sudadera con capucha con forro polar Puma X Man City Essentials",
+      "precio": 270000,
+      "existencias": 100,
+      "compras_totales": 70
+    },
+    {
+      "id": "camisa_mci",
+      "nombre": "Camisa MCI",
+      "imagen": "/img/deportiva/mci_camisa.PNG",
+      "info": "¿Eres un fanático del fútbol y quieres apoyar a tu selección? Entonces no te puede faltar la camiseta de la selección colombia, la prenda oficial que usan los jugadores en los partidos. Esta camiseta está hecha de poliéster y elastano, lo que la hace ligera, transpirable y elástica. Tiene el escudo de la federación colombiana de fútbol en el pecho y el logo de adidas en el otro lado. La camiseta es de color amarillo, con detalles en azul y rojo en el cuello y las mangas. La camiseta tiene un corte ajustado que se adapta a tu cuerpo y te da una sensación de comodidad y seguridad. La camiseta es perfecta para usarla en los días de partido, para entrenar o para lucir tu pasión por el fútbol. No esperes más y consigue la tuya en nuestra tienda online, donde encontrarás las mejores ofertas y envíos gratis. Recurada, el 4-0 contra el Madrid",
+      "precio": 250000,
+      "existencias": 10,
+      "compras_totales": 999
+    },
+    {
+      "id": "chaqueta_mci",
+      "nombre": "Chaqueta MCI",
+      "imagen": "/img/deportiva/chaqueta_mci.PNG",
+      "info": "",
+      "precio": 0,
+      "existencias": 0,
+      "compras_totales": 0
+    }
   ],
 
   "buzos": [
     {
-      "id": "larotta_fucking_mom",
-      "nombre": "La Mama de La Rotta",
-      "imagen": "/img/buzos/OIP.jpg",
-      "info": "La puta mama de larotta que vive en la usa, en ohio",
-      "precio": 0,
-      "existencias": 1,
-      "compras_totales": 9999
-    },
-    {
-      "id": "cocain",
-      "nombre": "Cocaina 10Kg",
-      "imagen": "/img/buzos/R.jpg",
-      "info": "Colombia is as of 2019 the world's largest cocaine producer, with production more than tripling since 2013.[205][206] Three-quarters of the world's annual yield of cocaine has been produced in Colombia, both from cocaine base imported from Peru (primarily the Huallaga Valley) and Bolivia and from locally grown coca. There was a 28% increase in the amount of potentially harvestable coca plants which were grown in Colombia in 1998. This, combined with crop reductions in Bolivia and Peru, made Colombia the nation with the largest area of coca under cultivation after the mid-1990s. Coca grown for traditional purposes by indigenous communities, a use which is still present and is permitted by Colombian laws, only makes up a small fragment of total coca production, most of which is used for the illegal drug trade.",
-      "precio": 500000,
+      "id": "adidas_essentials_rojo",
+      "nombre": "Essentials Rojo",
+      "imagen": "/img/buzos/essentials_red.png",
+      "info": "¿Buscas un buzo cómodo, elegante y de calidad? Entonces no te pierdas el buzo addidas que tenemos para ti. Este buzo está hecho de algodón suave y transpirable, con un diseño clásico y moderno a la vez. Tiene el logo de addidas en el pecho y las tres rayas en las mangas, que le dan un toque deportivo y distintivo. Además, cuenta con una capucha ajustable, bolsillos laterales y puños elásticos para mayor comodidad y protección. El buzo addidas es ideal para usarlo en cualquier ocasión, ya sea para hacer ejercicio, salir con amigos o relajarte en casa.",
+      "precio": 190000,
       "existencias": 100,
-      "compras_totales": 1000
+      "compras_totales": 0
     },
     {
-      "id": "zurdo_de_mierda",
-      "nombre": "El Zurdo HP",
-      "imagen": "/img/buzos/el_zurdo.jpg",
-      "info": "Gustavo Petro es un zurdo populista que quiere destruir la economía de Colombia con sus ideas socialistas y estatistas. Es un demagogo que se aprovecha de la ignorancia y la pobreza de la gente para prometerles un paraíso que nunca va a llegar. Es un enemigo de la libertad, la propiedad y el mercado, y un aliado de los narcos, los terroristas y los dictadores. Es un guerrillero como presidente, su precio representa lo q ha robado como presidente",
-      "precio": 90000000,
-      "existencias": 1,
-      "compras_totales": 9999
+      "id": "adidas_essentials_gris",
+      "nombre": "Essentials Gris",
+      "imagen": "/img/buzos/essentials_gray.png",
+      "info": "¿Buscas un buzo cómodo, elegante y de calidad? Entonces no te pierdas el buzo addidas que tenemos para ti. Este buzo está hecho de algodón suave y transpirable, con un diseño clásico y moderno a la vez. Tiene el logo de addidas en el pecho y las tres rayas en las mangas, que le dan un toque deportivo y distintivo. Además, cuenta con una capucha ajustable, bolsillos laterales y puños elásticos para mayor comodidad y protección. El buzo addidas es ideal para usarlo en cualquier ocasión, ya sea para hacer ejercicio, salir con amigos o relajarte en casa.",
+      "precio": 190000,
+      "existencias": 100,
+      "compras_totales": 0
     },
     {
-      "id": "my_doctor",
-      "nombre": "El Doctor",
-      "imagen": "/img/buzos/the_doctor.png",
-      "info": "El doctor Álvaro Uribe es un líder indiscutible de la derecha colombiana, un defensor de la libertad, la democracia y la seguridad. Su trayectoria política y profesional lo ha convertido en un referente nacional e internacional, que ha sabido enfrentar con valentía y firmeza los ataques de sus enemigos y las injusticias del sistema judicial. Su visión de país se basa en el respeto a la propiedad privada, el libre mercado, el estado de derecho y la soberanía nacional. Es un patriota que no se deja intimidar por las amenazas del socialismo, el narcoterrorismo y la corrupción. Uribe es el ejemplo de que se puede ser exitoso sin renunciar a los principios y valores que nos hacen grandes. Es el héroe que Colombia necesita y merece.",
-      "precio": 90000000,
-      "existencias": 1,
-      "compras_totales": 9999
+      "id": "adidas_essentials_azul",
+      "nombre": "Essentials Azul",
+      "imagen": "/img/buzos/essentials_blue.png",
+      "info": "¿Buscas un buzo cómodo, elegante y de calidad? Entonces no te pierdas el buzo addidas que tenemos para ti. Este buzo está hecho de algodón suave y transpirable, con un diseño clásico y moderno a la vez. Tiene el logo de addidas en el pecho y las tres rayas en las mangas, que le dan un toque deportivo y distintivo. Además, cuenta con una capucha ajustable, bolsillos laterales y puños elásticos para mayor comodidad y protección. El buzo addidas es ideal para usarlo en cualquier ocasión, ya sea para hacer ejercicio, salir con amigos o relajarte en casa.",
+      "precio": 190000,
+      "existencias": 100,
+      "compras_totales": 0
+    },
+    {
+      "id": "adidas_essentials_negro",
+      "nombre": "Essentials Negro",
+      "imagen": "/img/buzos/essentials_black.png",
+      "info": "¿Buscas un buzo cómodo, elegante y de calidad? Entonces no te pierdas el buzo addidas que tenemos para ti. Este buzo está hecho de algodón suave y transpirable, con un diseño clásico y moderno a la vez. Tiene el logo de addidas en el pecho y las tres rayas en las mangas, que le dan un toque deportivo y distintivo. Además, cuenta con una capucha ajustable, bolsillos laterales y puños elásticos para mayor comodidad y protección. El buzo addidas es ideal para usarlo en cualquier ocasión, ya sea para hacer ejercicio, salir con amigos o relajarte en casa.",
+      "precio": 190000,
+      "existencias": 100,
+      "compras_totales": 0
+    },
+    {
+      "id": "adidas_essentials_camouflage_negro",
+      "nombre": "Essentials Camouflage",
+      "imagen": "/img/buzos/essentials2_black.png",
+      "info": "¿Buscas un buzo cómodo, elegante y de calidad? Entonces no te pierdas el buzo addidas que tenemos para ti. Este buzo está hecho de algodón suave y transpirable, con un diseño clásico y moderno a la vez. Tiene el logo de addidas en el pecho y las tres rayas en las mangas, que le dan un toque deportivo y distintivo. Además, cuenta con una capucha ajustable, bolsillos laterales y puños elásticos para mayor comodidad y protección. El buzo addidas es ideal para usarlo en cualquier ocasión, ya sea para hacer ejercicio, salir con amigos o relajarte en casa.",
+      "precio": 200000,
+      "existencias": 90,
+      "compras_totales": 0
+    },
+    {
+      "id": "adidas_essentials_camouflage_gris",
+      "nombre": "Essentials Camouflage",
+      "imagen": "/img/buzos/essentials2_gray.png",
+      "info": "¿Buscas un buzo cómodo, elegante y de calidad? Entonces no te pierdas el buzo addidas que tenemos para ti. Este buzo está hecho de algodón suave y transpirable, con un diseño clásico y moderno a la vez. Tiene el logo de addidas en el pecho y las tres rayas en las mangas, que le dan un toque deportivo y distintivo. Además, cuenta con una capucha ajustable, bolsillos laterales y puños elásticos para mayor comodidad y protección. El buzo addidas es ideal para usarlo en cualquier ocasión, ya sea para hacer ejercicio, salir con amigos o relajarte en casa.",
+      "precio": 200000,
+      "existencias": 90,
+      "compras_totales": 0
+    },
+    {
+      "id": "persourban_dragon",
+      "nombre": "Samuray vs Dragon",
+      "imagen": "/img/buzos/buzo_dragon.png",
+      "info": "Hoodie con diseño en el frente y mangas, hecho con algodón perchado creando asi un diseño grueso y resistente",
+      "precio": 140800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "persourban_ocean1",
+      "nombre": "Ocean 1.0",
+      "imagen": "/img/buzos/buzo_ocean_1.png",
+      "info": "Hoodie con diseño en el frente y espalda, su principal color es el 'Océano Asiático', hecho con algodón olímpico, que genera propiedades térmicas y es agradable al contacto con la piel.",
+      "precio": 116800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "persourban_ocean2",
+      "nombre": "Ocean 2.0",
+      "imagen": "/img/buzos/buzo_ocean_2.png",
+      "info": "Hoodie con diseño en el frente y espalda, su principal color es el 'Océano Asiático', hecho con algodón olímpico, que genera propiedades térmicas y es agradable al contacto con la piel.",
+      "precio": 116800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "persourban_dragon2",
+      "nombre": "Dragon 2.0",
+      "imagen": "/img/buzos/buzo_dragon_2.png",
+      "info": "Hoodie con diseño en el frente y espalda, su principal color es el 'Beige y Tinto', hecho con algodón olímpico, que genera propiedades térmicas y es agradable al contacto con la piel.",
+      "precio": 116800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "persourban_samurai",
+      "nombre": "Samurai",
+      "imagen": "/img/buzos/buzo_samurai.png",
+      "info": "Si te gustan los diseños originales y la cultura japonesa, este buzo es para ti. Este buzo tiene un estampado de samurai en el frente, que representa la valentía, el honor y la lealtad de estos guerreros legendarios. El buso está hecho de algodón y poliéster, lo que lo hace suave, cómodo y resistente. Tiene un cuello redondo, mangas largas y un ajuste holgado que te permite moverte con libertad. El buso es de color negro, lo que hace que el estampado resalte y combine con cualquier prenda. El buso es ideal para usarlo en días fríos o para darle un toque diferente a tu look. No te quedes sin el tuyo y pídelo en nuestra tienda online, donde encontrarás los mejores precios y envíos rápidos.",
+      "precio": 116800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "persourban_eva",
+      "nombre": "Eva",
+      "imagen": "/img/buzos/buzo_eva.png",
+      "info": "Hoodie con diseño en el frente, espalda y mangas, su principal color es el 'Morado con verde', hecho con algodón olímpico, que genera propiedades térmicas y es agradable al contacto con la piel.",
+      "precio": 116800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "persourban_flow_violento",
+      "nombre": "Flow Violento",
+      "imagen": "/img/buzos/flow_violento.png",
+      "info": "Hoodie con diseño en el frente, espalda y mangas, su principal color es el 'azul claro con naranja', hecho con algodón olímpico, que genera propiedades térmicas y es agradable al contacto con la piel.",
+      "precio": 116800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "persourban_insosuke",
+      "nombre": "Insosuke",
+      "imagen": "/img/buzos/buzo_insosuke.png",
+      "info": "Hoodie con diseño en el frente, espalda y mangas, su principal color es el 'Negro', hecho con algodón olímpico, que genera propiedades térmicas y es agradable al contacto con la piel.",
+      "precio": 148800,
+      "existencias": 100,
+      "compras_totales": 30
+    },
+    {
+      "id": "san_andresito",
+      "nombre": "Buzo San Andresito",
+      "imagen": "/img/buzos/buzo_sanandresito.jpg",
+      "info": "Hoodie sin diseño, su principal color ese el 'Azul cielo', hecho con algodón perchado que es menos caluroso y liviano que los demás",
+      "precio": 50000,
+      "existencias": 20,
+      "compras_totales": 10
     }
   ]
 }
