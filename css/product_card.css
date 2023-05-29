@@ -68,14 +68,18 @@
   color: white;
 }
 
-.producto .info i{
-  font-size: 1.7rem;
+.producto .icon i{
+  font-size: 1.2rem;
   position: absolute;
-  top: 15px;
-  right: 15px;
-  color: #3f3f3f;
+  top: 5px;
+  right: 5px;
+  color: black;
   text-decoration: none;
   text-shadow: 2px 2px 50px white;
+  padding: 7px;
+  border-radius: 10px;
+  background: var(--gris-claro);
+  border: 1px solid var(--gris-medio);
 }
 
 @media screen and (max-width: 600px) {

@@ -10,6 +10,12 @@
   text-decoration: underline;
 }
 
+
+.underline_text.bold {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 #logo {
   font-size: 1.7em;
   font-family: "SpriteGraffitiShadow", sans-serif;

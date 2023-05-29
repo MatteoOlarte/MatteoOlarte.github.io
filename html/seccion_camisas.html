@@ -21,7 +21,6 @@
     <header class="container-fluid bg-dark d-flex justify-content-center">
       <p class="text-light mb-0 p-2 fs-6">Contáctenos al 320 973 0340</p>
     </header>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary sombra sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" id="logo" href="/index.html"><b>GONOSHOP</b></a>
@@ -52,17 +51,17 @@
 
               <ul class="dropdown-menu">
                 <li class="dropdown-item">
-                  <a class="nav-link" href="/index.html#seccion_quienes_somos"
+                  <a class="nav-link" href="#seccion_quienes_somos"
                     >¿Quienes Somos?</a
                   >
                 </li>
                 <li class="dropdown-item">
-                  <a class="nav-link" href="/index.html#seccion_productos"
+                  <a class="nav-link" href="#seccion_productos"
                     >Nuestros Productos</a
                   >
                 </li>
                 <li class="dropdown-item">
-                  <a class="nav-link" href="/index.html#seccion_ubicacion"
+                  <a class="nav-link" href="#seccion_ubicacion"
                     >Donde Encontrarnos</a
                   >
                 </li>
@@ -70,19 +69,13 @@
                   <hr class="dropdown-divider" />
                 </li>
                 <li class="dropdown-item">
-                  <a class="nav-link" href="/index.html#seccion_contacto"
-                    >Contáctenos</a
-                  >
+                  <a class="nav-link" href="#seccion_contacto">Contáctenos</a>
                 </li>
               </ul>
             </li>
 
-            <li class="nav-item">
-              <a
-                class="nav-link underline_text"
-                href="/html/seccion_camisas.html"
-                >Camisas</a
-              >
+            <li class="nav-item underline_text bold">
+              <a class="nav-link" href="/html/seccion_camisas.html">Camisas</a>
             </li>
 
             <li class="nav-item">
@@ -97,17 +90,21 @@
           </ul>
 
           <form class="d-flex">
-            <a href="/html/login_page.html">
-              <button class="btn btn-dark" type="button">
-                Iniciar Sección
+            <a href="/html/shopping_cart.html" class="ml-xl-6">
+              <button class="btn btn-light" type="button">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Carro De Compras
               </button>
+            </a>
+            <a href="/html/login_page.html">
+              <button class="btn btn-dark" type="button">Iniciar Sesión</button>
             </a>
           </form>
         </div>
       </div>
     </nav>
-    <br />
 
+    <br />
     <section class="seccion_productos">
       <div class="contenedor_filtros"></div>
       <div class="contenedor_productos" id="contenedor_productos">
@@ -120,7 +117,7 @@
               ><button>Cargando...</button></a
             >
           </div>
-          <a class="info" href="/html/login_page.html">
+          <a class="icon" href="/html/login_page.html">
             <i class="fa-sharp fa-solid fa-cart-plus"></i>
           </a>
         </div>
@@ -140,7 +137,7 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/product_loader_camisas.js"></script>
+    <script src="/js/camisas.js" type="module"></script>
     <script
       src="https://kit.fontawesome.com/28cf86c108.js"
       crossorigin="anonymous"
