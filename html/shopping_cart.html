@@ -89,10 +89,9 @@
           </ul>
 
           <form class="d-flex">
-            <a href="/html/shopping_cart.html" class="ml-xl-6">
-              <button class="btn btn-light" type="button">
-                <i class="fa-solid fa-cart-shopping"></i>
-                Carro De Compras
+            <a>
+              <button class="btn btn-light" type="button" id="clean_button">
+                <i class="fa-solid fa-trash"></i> Limpiar
               </button>
             </a>
             <a href="/html/login_page.html">
@@ -107,11 +106,12 @@
     <h1 class="p-3 fs-2 text-center underline_text">
       MI CARRO DE COMPRAS
     </h1>
+    
+    <h5 class="text-center" id="label_total_price">
+      TOTAL: 0
+    </h5>
     <section class="cart_container" id="contenedor">
-      <div class="element">
-        <h3>Name</h3>
-        <span class="border"><h3>Price</h3></span>
-      </div>
+
     </section>
 
     <script

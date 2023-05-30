@@ -1,3 +1,7 @@
+#label_total_price {
+  font-weight: 300;
+}
+
 .cart_container {
   width: auto;
   height: 65vh;
@@ -24,6 +28,7 @@
   padding: 2px 10px;
   border-radius: 20px;
   background-color: var(--gris-medio);
+  
 }
 
 .cart_container .element h3 {

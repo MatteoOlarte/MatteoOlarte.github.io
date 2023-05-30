@@ -1,5 +1,11 @@
 const CONTENEDOR = document.getElementById("contenedor")
+const limpiar = document.getElementById("clean_button")
 let productosGuardados = JSON.parse(localStorage.getItem("id_productos"))
+
+limpiar.onclick = function() {
+  localStorage.clear()
+  location.href = '/html/shopping_cart.html'
+}
 
 if (productosGuardados != null) {
   fetch("/data.json")
@@ -7,6 +13,7 @@ if (productosGuardados != null) {
     .then((data) => {
       let catalogo = []
       let carroDeCompras = []
+      let total = 0
 
       catalogo.push(...data.camisas)
       catalogo.push(...data.deportiva)
@@ -15,12 +22,16 @@ if (productosGuardados != null) {
       for (id of productosGuardados) {
         for (producto of catalogo) {
           if (producto.id == id) {
-            carroDeCompras.push(producto)
+            carroDeCompras.unshift(producto)
+            total+=producto.precio
           }
         }
       }
+      total = total.toLocaleString(undefined, {
+        style: "currency",
+        currency: "COP",
+      })
 
-      console.log(carroDeCompras)
       CONTENEDOR.innerHTML = ""
       for (producto of carroDeCompras) {
         let precioFormato = producto.precio.toLocaleString(undefined, {
@@ -34,6 +45,7 @@ if (productosGuardados != null) {
           </div>
         `
       }
+      document.getElementById('label_total_price').innerText = `Total: ${total}`
 
     })
 } else {

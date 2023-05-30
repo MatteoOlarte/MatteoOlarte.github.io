@@ -1,0 +1,50 @@
+#seccion_pago{
+  width: 100%;
+}
+
+#seccion_pago input, textarea {
+  outline: gray solid 1px;
+  background: transparent;
+}
+
+#seccion_pago input:focus, textarea:focus {
+  outline: gray solid 1px;
+}
+
+#seccion_pago .contenedor_form:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+#seccion_pago form {
+  width: 100%;
+}
+
+#seccion_pago input, button, textarea{
+  font-family: "Roboto Slab";
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  resize: none;
+} 
+
+.numero-tajeta .iconos {
+  text-align: end;
+}
+
+.numero-tajeta-2 {
+  display: flex;
+  gap: 5px;
+}
+
+.numero-tajeta-2 .contenedor_form:nth-child(1){
+  flex-grow: 10;
+  order: 2;
+}
+
+.numero-tajeta-2 .contenedor_form:nth-child(2){
+  flex-grow: 5;
+  order: 1;
+}
