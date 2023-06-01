@@ -116,33 +116,33 @@
         <p>Filtros</p>
         
         <div class="filtro">
-          <p>Nombre</p>
-          <input type="text" id="filtro_nombre" placeholder="Nombre">
+          <label for="filtro_nombre">Nombre</label>
+          <input type="text" id="filtro_nombre" placeholder="Nombre del producto" name="product_name">
         </div>
 
         <div class="filtro">
-          <p>Precio Hasta</p>
-          <input type="number" id="filtro_precio" placeholder="Valor">
+          <label for="filtro_precio">Precio Hasta</label>
+          <input type="number" id="filtro_precio" placeholder="Pecio maximo">
         </div>
 
         <div class="filtro">
-          <p>Color</p>
-          <input list="browsers" name="c" placeholder="Seleccionar" id="filtro_color"/>
-          <datalist id="browsers">
-            <option value="Azul"></option>
-            <option value="Rojo"></option>
-            <option value="Verde"></option>
-            <option value="Morado"></option>
-            <option value="Negro"></option>
-            <option value="Cafe"></option>
-            <option value="Blanco"></option>
-            <option value="Amarillo"></option>
-            <option value="Celeste"></option>
-          </datalist>
+          <label for="filtro_color">Color</label>
+          <select name="colores" id="filtro_color">
+            <option value="none">Todos</option>   
+            <option value="amarillo">Amarillo</option>      
+            <option value="azul">Azul</option>
+            <option value="blanco">Blanco</option>
+            <option value="cafe">Cafe</option>
+            <option value="celeste">Celeste</option>
+            <option value="morado">Morado</option>
+            <option value="negro">Negro</option>
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+          </select>
         </div>
 
         <div class="filtro">
-          <p><i class="fa-solid fa-magnifying-glass"></i> Buscar</p>
+          <label for="filtro_busqueda"><i class="fa-solid fa-magnifying-glass"></i> Buscar</label>
           <input type="text" id="filtro_busqueda" placeholder="Buscar...">
         </div>
       </div>

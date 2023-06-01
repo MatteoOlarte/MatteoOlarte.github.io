@@ -136,10 +136,54 @@
     "nombre": "Hawaiana Verde",
     "imagen": "/img/camisas/hawaiana_verde.png",
     "info": "¿Buscas una camisa fresca y divertida para el verano? Esta camisa hawaiana verde es perfecta para ti. Tiene un diseño original con estampados de flores y palmeras que te harán sentir como en el paraíso. Su tela es suave y ligera, ideal para los días calurosos.",
-    "precio": 40000.0,
+    "precio": 30000.0,
     "existencias": 100,
     "compras_totales": 0,
     "color": "verde",
+    "tipo": "camisa"
+  },
+  {
+    "id": "camisa_12",
+    "nombre": "Camiseta City Elevated",
+    "imagen": "/img/camisas/camisa12.png",
+    "info": "Prepárate para darlo todo con esta camiseta adidas. Su diseño ajustado con un toque de elasticidad te proporciona una total libertad de movimiento en todo tipo de actividades. Además, está confeccionada en un tejido ligero y transpirable que mantiene la piel seca para que nada te detenga.",
+    "precio": 120999,
+    "existencias": 100,
+    "compras_totales": 0,
+    "color": "verde",
+    "tipo": "camisa"
+  },
+  {
+    "id": "camisa_15",
+    "nombre": "Camiseta City Elevated",
+    "imagen": "/img/camisas/camisa15.png",
+    "info": "Prepárate para darlo todo con esta camiseta adidas. Su diseño ajustado con un toque de elasticidad te proporciona una total libertad de movimiento en todo tipo de actividades. Además, está confeccionada en un tejido ligero y transpirable que mantiene la piel seca para que nada te detenga.",
+    "precio": 120999,
+    "existencias": 100,
+    "compras_totales": 0,
+    "color": "azul",
+    "tipo": "camisa"
+  },
+  {
+    "id": "camisa_14",
+    "nombre": "Camiseta Polo Performance",
+    "imagen": "/img/camisas/camisa14.png",
+    "info": "Sal a jugar golf con comodidad y estilo con esta camiseta polo de golf adidas. El ajuste perfecto te permite completar cada golpe libre de distracciones, desde el primer drive hasta el último putt. Dirígete hacia el club sintiéndote fresco y listo para lo que te depare el día.",
+    "precio": 199999.0,
+    "existencias": 100,
+    "compras_totales": 0,
+    "color": "negro",
+    "tipo": "camisa"
+  },
+  {
+    "id": "camisa_11",
+    "nombre": "Camiseta Polo Performance",
+    "imagen": "/img/camisas/camisa11.png",
+    "info": "Sal a jugar golf con comodidad y estilo con esta camiseta polo de golf adidas. El ajuste perfecto te permite completar cada golpe libre de distracciones, desde el primer drive hasta el último putt. Dirígete hacia el club sintiéndote fresco y listo para lo que te depare el día.",
+    "precio": 199999.0,
+    "existencias": 100,
+    "compras_totales": 0,
+    "color": "azul",
     "tipo": "camisa"
   },
   {
@@ -172,7 +216,7 @@
     "precio": 215000,
     "existencias": 100,
     "compras_totales": 42,
-    "color": "azul_negro_morado",
+    "color": "azul_morado",
     "tipo": "deportiva"
   },
   {
@@ -199,7 +243,7 @@
   },
   {
     "id": "camisa_mci",
-    "nombre": "Camisa MCI",
+    "nombre": "Camiseta MCI Local",
     "imagen": "/img/deportiva/mci_camisa.PNG",
     "info": "¿Eres fan del Manchester City? ¿Quieres lucir los colores de tu equipo favorito con estilo y comodidad? Entonces no te pierdas esta camiseta oficial del Manchester City, con el escudo del club bordado en el pecho y el logo de Puma en la manga. Esta camiseta está hecha de algodón suave y transpirable, ideal para el día a día o para animar a tu equipo en el estadio. Además, tiene un diseño moderno y elegante, con un cuello redondo y un corte ajustado que realza tu figura. No esperes más y consigue esta camiseta del Manchester City, ¡la prenda imprescindible para todo aficionado al fútbol!",
     "precio": 250000,
@@ -308,6 +352,94 @@
     "tipo": "deportiva"
   },
   {
+    "id": "camisa_millonarios",
+    "nombre": "Camiseta Local Millonarios",
+    "imagen": "/img/deportiva/millonarios_home.png",
+    "info": "",
+    "precio": 250000,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "azul",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "tenis_addidas1",
+    "nombre": "Tenis Adizero Pro 3.0",
+    "imagen": "/img/deportiva/tenis_1.png",
+    "info": "Los Adizero Adios Pro 3 son la máxima expresión de los productos Adizero Racing. Fueron diseñados con y para atletas para lograr hazañas increíbles. Estos tenis de running adidas están diseñados para optimizar la eficiencia del running. Nuestras varillas ENERGYRODS de carbono ofrecen ligereza y firmeza para pasos ágiles y eficientes. La tecnología LIGHTSTRIKE PRO ultraliviana amortigua cada paso con las tres capas de espuma resistente que te ayudan a mantener la energía a largo plazo. Todo sobre una delgada suela de caucho textil para un agarre extraordinario en condiciones mojadas y secas.",
+    "precio": 1150999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "rojo",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "g_speedportal_1",
+    "nombre": "Guayos X SpeedPortal 3",
+    "imagen": "/img/deportiva/tenis2.png",
+    "info": "Mente. Cuerpo. Guayos. Conectados en un abrir y cerrar de ojos. Ponte estos guayos adidas X Speedportal para desbloquear la velocidad en todas sus dimensiones. Diseñados para dominar en la cancha de terreno firme, estos guayos incorporan un exterior textil revestido ligero y dos taches de antepié adicionales. La combinación de un cuello tejido plano elástico y un refuerzo de talón rígido en TPU te garantizan sujeción en cada carrera y movimiento lateral.",
+    "precio": 450999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "amarillo",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "g_speedportal_2",
+    "nombre": "Guayos X SpeedPortal 3",
+    "imagen": "/img/deportiva/tenis3.png",
+    "info": "Mente. Cuerpo. Guayos. Conectados en un abrir y cerrar de ojos. Ponte estos guayos adidas X Speedportal para desbloquear la velocidad en todas sus dimensiones. Diseñados para dominar en la cancha de terreno firme, estos guayos incorporan un exterior textil revestido ligero y dos taches de antepié adicionales. La combinación de un cuello tejido plano elástico y un refuerzo de talón rígido en TPU te garantizan sujeción en cada carrera y movimiento lateral.",
+    "precio": 450999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "azul",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "addidas_eq21",
+    "nombre": "Tenis EQ21 RUN",
+    "imagen": "/img/deportiva/tenis5.png",
+    "info": "Acumula kilómetros con confianza con estos tenis de running adidas. El exterior transpirable mantiene tus pies frescos mientras corres largas distancias. La amortiguación liviana te da ese impulso que te anima a conquistar tu carrera desde la primera a la última zancada.",
+    "precio": 450999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "negro",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "addidas_eq21_2",
+    "nombre": "Tenis EQ21 RUN",
+    "imagen": "/img/deportiva/tenis6.png",
+    "info": "Acumula kilómetros con confianza con estos tenis de running adidas. El exterior transpirable mantiene tus pies frescos mientras corres largas distancias. La amortiguación liviana te da ese impulso que te anima a conquistar tu carrera desde la primera a la última zancada.",
+    "precio": 450999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "blanco",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "addidas_eq21_3",
+    "nombre": "Tenis EQ21 RUN",
+    "imagen": "/img/deportiva/tenis7.png",
+    "info": "Acumula kilómetros con confianza con estos tenis de running adidas. El exterior transpirable mantiene tus pies frescos mientras corres largas distancias. La amortiguación liviana te da ese impulso que te anima a conquistar tu carrera desde la primera a la última zancada.",
+    "precio": 450999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "blanco",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "addidas_eq21_4",
+    "nombre": "Tenis EQ21 RUN",
+    "imagen": "/img/deportiva/tenis4.png",
+    "info": "Acumula kilómetros con confianza con estos tenis de running adidas. El exterior transpirable mantiene tus pies frescos mientras corres largas distancias. La amortiguación liviana te da ese impulso que te anima a conquistar tu carrera desde la primera a la última zancada.",
+    "precio": 460999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "blanco",
+    "tipo": "deportiva"
+  },
+  {
     "id": "adidas_essentials_rojo",
     "nombre": "Essentials Rojo",
     "imagen": "/img/buzos/essentials_red.png",
@@ -348,7 +480,7 @@
     "precio": 190000,
     "existencias": 100,
     "compras_totales": 0,
-    "color": "azul",
+    "color": "negro",
     "tipo": "buzo"
   },
   {

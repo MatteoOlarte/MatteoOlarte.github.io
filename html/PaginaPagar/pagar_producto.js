@@ -55,18 +55,31 @@ if (product_type == "simple_product") {
       document.title = producto.nombre
     })
 } else if (product_type == "cart") {
-  let productos = JSON.parse(params.get("items"))
+  let cartIDs = JSON.parse(localStorage.getItem("id_productos"))
   let total = 0
-  productos.forEach((element) => total+=element.precio)
-  total = total.toLocaleString(undefined, {
-    style: "currency",
-    currency: "COP",
-  })
 
-  document.getElementById("product_name").innerText = "Carrito de Compras"
-  document.getElementById("product_price").innerText = total
-  document.getElementById("image_view").setAttribute("src", "/img/shopping_cart.jpg")
-  document.title = "Carrito de Compras"
+  fetch("/data.json")
+    .then((response) => {
+      return response.json()
+    })
+    .then((catalogo) => {
+      for (let id of cartIDs) {
+        for (let product of catalogo) {
+          if (id == product.id) {
+            total += product.precio
+          }
+        }
+      }
+      total = total.toLocaleString(undefined, {
+        style: "currency",
+        currency: "COP",
+      })
+      document.getElementById("product_name").innerText = "Carrito de Compras"
+      document.getElementById("product_price").innerText = total
+      document.getElementById("image_view").setAttribute("src", "/img/shopping_cart.jpg")
+      document.title = "Carrito de Compras"
+
+    })
 }
 
 payButton.onclick = () => {

@@ -45,7 +45,6 @@ function update(catalogo) {
   buttonPay.onclick = () => {
     let params = new URLSearchParams()
     params.append('type', 'cart')
-    params.append('items', JSON.stringify(carritoDeCompras))
     location.href = '/html/PaginaPagar/pagar_producto.html?' + params.toString()
   }     
 }
