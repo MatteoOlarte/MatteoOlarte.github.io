@@ -13,11 +13,7 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/text_styles.css" />
     <link rel="stylesheet" href="/css/cards.css" />
-    <link
-      href="https://www.dafontfree.net/embed/c3ByaXRlLWdyYWZmaXRpLXNoYWRvdyZkYXRhLzUxL3MvMjMxMTYvU3ByaXRlIEdyYWZmaXRpIFNoYWRvdy5vdGY"
-      rel="stylesheet"
-      type="text/css"
-    />
+
     <title>Gonoshop</title>
   </head>
 
@@ -27,7 +23,7 @@
     </header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sombra sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" id="logo"><b>GONOSHOP</b></a>
+        <a href="/index.html" class="navbar-brand" id="logo"><b>GONOSHOP</b></a>
 
         <button
           style="width: 100px"
@@ -44,14 +40,15 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--Mas Información-->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >Mas Información</a
-              >
+                >Mas Información
+              </a>
 
               <ul class="dropdown-menu">
                 <li class="dropdown-item">
@@ -78,28 +75,34 @@
               </ul>
             </li>
 
+            <!--Comprar Camisas-->
             <li class="nav-item">
-              <a class="nav-link" href="/html/seccion_camisas.html">Camisas</a>
+              <a href="#" class="nav-link btn_camisas"> Camisas </a>
+            </li>
+            <!--Comprar Deportiva-->
+            <li class="nav-item">
+              <a href="#" class="nav-link btn_deportiva"> Ropa Deportiva </a>
+            </li>
+            <!--Comprar Buzos-->
+            <li class="nav-item">
+              <a href="#" class="nav-link btn_buzos"> Buzos </a>
+            </li>
+            <!--Buscar Productos-->
+            <li class="nav-item">
+              <a href="#" class="nav-link btn_search">Buscar</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/html/seccion_deportiva.html"
-                >Ropa Deportiva</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="/html/seccion_buzos.html">Buzos</a>
-            </li>
           </ul>
 
           <form class="d-flex">
-            <a href="/html/shopping_cart.html" class="ml-xl-6">
+
+            <a href="/html/PaginaShoppingCart/shopping_cart.html" class="ml-xl-6">
               <button class="btn btn-light" type="button">
                 <i class="fa-solid fa-cart-shopping"></i>
-                Carro De Compras
+                Carrito De Compras
               </button>
             </a>
+
             <a href="/html/login_page.html">
               <button class="btn btn-dark" type="button">Iniciar Sesión</button>
             </a>
@@ -185,15 +188,15 @@
       <h1 class="p-3 fs-2 text-center underline_text">NUESTROS PRODUCTOS</h1>
 
       <div class="contenedor_tarjeta">
-        <a href="/html/seccion_camisas.html" class="tarjeta tarjeta_animada">
+        <a href="#" class="tarjeta tarjeta_animada btn_camisas">
           <h3>Camisas</h3>
         </a>
 
-        <a href="/html/seccion_deportiva.html" class="tarjeta tarjeta_animada">
+        <a href="#" class="tarjeta tarjeta_animada btn_deportiva">
           <h3>Ropa Deportiva</h3>
         </a>
 
-        <a href="/html/seccion_buzos.html" class="tarjeta tarjeta_animada">
+        <a href="#" class="tarjeta tarjeta_animada btn_buzos">
           <h3>Buzos</h3>
         </a>
       </div>
@@ -290,6 +293,7 @@
       </form>
     </section>
 
+    <script src="/js/urls.js"></script>
     <script
       src="https://kit.fontawesome.com/28cf86c108.js"
       crossorigin="anonymous"

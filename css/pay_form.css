@@ -1,0 +1,58 @@
+.contenedor_formulario form {
+  width: 100%;
+}
+
+.contenedor_input {
+  width: inherit;
+  height: 50px;
+  margin: 1px;
+}
+
+.contenedor_input input {
+  width: inherit;
+  height: inherit;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.contenedor_input input:focus {
+  outline: none;
+}
+
+
+.contenedor_input:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.contenedor_input.flex_icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.contenedor_input.flex_inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.contenedor_input.flex_inputs input.small {
+  width: 0px;
+  flex-grow: 1;
+}
+
+.contenedor_input.flex_inputs input.medium {
+  width: 0px;
+  flex-grow: 2;
+}
+
+.contenedor_input.flex_inputs input.large {
+  width: 0px;
+  flex-grow: 3;
+}
+
+.contenedor_input.flex_inputs input.x_large {
+  width: 0px;
+  flex-grow: 5;
+}

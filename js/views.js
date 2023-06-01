@@ -26,13 +26,19 @@ export function createProductView(
   infoPrecio.innerText = precioFormato
   infoButton.innerText = "Ver Producto"
   infoButton.onclick = function () {
+    let params = new URLSearchParams()
+    params.append('product_type', tipo)
+    params.append('product_id', id)
+    location.href = '/html/PaginaVerProducto/visualizar_producto.html?' + params.toString()
+    /*
     sessionStorage.setItem("product_type", tipo)
     sessionStorage.setItem("product_id", id)
     location.href = "visualizar_producto.html"
+    */
   }
   carroDeCompras.className = "icon"
   carroDeComprasIcon.className = "fa-sharp fa-solid fa-cart-plus"
-  carroDeCompras.setAttribute('href', '/html/shopping_cart.html')
+  carroDeCompras.setAttribute('href', '/html/PaginaShoppingCart/shopping_cart.html')
   carroDeCompras.onclick = function() {
     let productosGuardados = []
 
@@ -50,6 +56,51 @@ export function createProductView(
   producto.appendChild(productoImagen)
   producto.appendChild(productoInfo)
   producto.appendChild(carroDeCompras)
+  return producto
+}
+
+export function createCartProductView(
+  id = "",
+  nombre = "Producto",
+  imagen = "/img/unknown_image.png",
+  precio = 999.99,
+  tipo = "object"
+) {
+  let precioFormato = precio.toLocaleString(undefined, {
+    style: "currency",
+    currency: "COP",
+  })
+  let producto = document.createElement("div")
+  let productoImagen = document.createElement("div")
+  let productoInfo = document.createElement("div")
+  let infoNombre = document.createElement("h1")
+  let infoPrecio = document.createElement("p")
+  let infoButton = document.createElement("button")
+
+  producto.className = "producto"
+  productoImagen.className = "producto_imagen"
+  productoInfo.className = "producto_info"
+  productoImagen.setAttribute("style", `background-image: url(${imagen});`)
+  infoNombre.innerText = nombre
+  infoPrecio.innerText = precioFormato
+  infoButton.innerText = "Ver Producto"
+  infoButton.onclick = function () {
+    let params = new URLSearchParams()
+    params.append('product_type', tipo)
+    params.append('product_id', id)
+    location.href = '/html/PaginaVerProducto/visualizar_producto.html?' + params.toString()
+    /*
+    sessionStorage.setItem("product_type", tipo)
+    sessionStorage.setItem("product_id", id)
+    location.href = "visualizar_producto.html"
+    */
+  }
+
+  productoInfo.appendChild(infoNombre)
+  productoInfo.appendChild(infoPrecio)
+  productoInfo.appendChild(infoButton)
+  producto.appendChild(productoImagen)
+  producto.appendChild(productoInfo)
   return producto
 }
 
