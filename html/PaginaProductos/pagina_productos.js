@@ -80,7 +80,7 @@ function start(type) {
 async function getProductsArray(type) {
   let data = await fetch("/data.json").then((response) => response.json())
   return type == undefined
-    ? data
+    ? data.filter((element) => !(element.id.startsWith('hidden:')))
     : data.filter((element) => element.tipo == type)
 }
 

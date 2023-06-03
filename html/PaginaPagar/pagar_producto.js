@@ -31,6 +31,7 @@ function verifyCardNumber(cardNumber = "1234567890123456") {
 
 function comprado() {}
 
+const IVA = 1.19
 let payButton = document.getElementById("btn_pay")
 let inputUserName = document.getElementById("input_user_name")
 let inputUserAddress = document.getElementById("input_user_address")
@@ -43,42 +44,52 @@ if (product_type == "simple_product") {
   fetch("/data.json")
     .then((response) => response.json())
     .then((data) => {
-      let producto = data.filter((element) => element.id == product_id)[0]
-      let precioFormato = producto.precio.toLocaleString(undefined, {
+      let product = data.filter((element) => element.id == product_id)[0]
+      let totalPrice = product.precio * IVA
+      let formattedPrice = totalPrice.toLocaleString(undefined, {
         style: "currency",
         currency: "COP",
       })
 
-      document.getElementById("product_name").innerText = producto.nombre
-      document.getElementById("product_price").innerText = precioFormato
-      document.getElementById("image_view").setAttribute("src", producto.imagen)
-      document.title = producto.nombre
+      document.getElementById("product_name").innerText = product.nombre
+      document.getElementById("product_price").innerText = `${formattedPrice} (IVA Incluido)`
+      document.getElementById("image_view").setAttribute("src", product.imagen)
+      document.title = product.nombre
     })
-} else if (product_type == "cart") {
+} 
+else if (product_type == "cart") {
   let cartIDs = JSON.parse(localStorage.getItem("id_productos"))
-  let total = 0
 
   fetch("/data.json")
     .then((response) => {
       return response.json()
     })
     .then((catalogo) => {
+      let shoppingCart = []
+      let totalPrice = 0
+      let cartLength = 0
+      let formattedPrice = ''
+
       for (let id of cartIDs) {
         for (let product of catalogo) {
-          if (id == product.id) {
-            total += product.precio
-          }
+          if (id == product.id) shoppingCart.unshift(product)
         }
       }
-      total = total.toLocaleString(undefined, {
+      cartLength = shoppingCart.length
+      totalPrice = shoppingCart
+        .map((value) => value.precio)
+        .reduce((total, value) => total + value) * IVA
+
+      formattedPrice = totalPrice.toLocaleString(undefined, {
         style: "currency",
         currency: "COP",
       })
+      document.getElementById("product_id").innerText = `${cartLength} Producto(s)`
       document.getElementById("product_name").innerText = "Carrito de Compras"
-      document.getElementById("product_price").innerText = total
+      document.getElementById("product_price").innerText = `${formattedPrice} (IVA Incluido)`
       document.getElementById("image_view").setAttribute("src", "/img/shopping_cart.jpg")
       document.title = "Carrito de Compras"
-
+      console.log(totalPrice);
     })
 }
 

@@ -1,7 +1,7 @@
 import * as view from "/js/views.js"
+
 const CONTENEDOR_P = document.getElementById("contenedor_productos")
 const CONTENEDOR_F = document.getElementById("contenedor_filtros")
-
 let productosGuardados = JSON.parse(localStorage.getItem("id_productos"))
 let labelLength = document.getElementById("label_length")
 let labelTotal = document.getElementById("label_total")
@@ -10,26 +10,28 @@ let buttonClean = document.getElementById("btn_clean")
 
 function update(catalogo) {
   let carritoDeCompras = []
-  let total = 0
-  let cantidad = 0
+  let precioTotal
+  let cantidad
   CONTENEDOR_P.textContent = null
 
   for (let id of productosGuardados) {
     for (let producto of catalogo) {
-      if (id == producto.id) {
-        carritoDeCompras.unshift(producto)
-        total+=producto.precio
-        cantidad++
-      }
+      if (id == producto.id) carritoDeCompras.unshift(producto)
     }
   }
-  total = total.toLocaleString(undefined, {
+  cantidad = carritoDeCompras.length
+  precioTotal = carritoDeCompras
+    .map((value) => value.precio)
+    .reduce((total, value) => total + value)
+
+  precioTotal = precioTotal.toLocaleString(undefined, {
     style: "currency",
     currency: "COP",
   })
 
   labelLength.innerText = cantidad
-  labelTotal.innerText = total
+  labelTotal.innerText = precioTotal
+
   for (let p of carritoDeCompras) {
     let id = p.id
     let nombre = p.nombre
@@ -38,15 +40,19 @@ function update(catalogo) {
     let tipo = p.tipo
 
     CONTENEDOR_P.appendChild(
-      view.createCartProductView(id, nombre, imagen, precio, tipo)
+      view.createCartProductView(id, nombre, imagen, precio, tipo, () => {
+        let index = productosGuardados.indexOf(p.id)
+        productosGuardados.splice(index, 1)
+        localStorage.setItem("id_productos", JSON.stringify(productosGuardados))
+        update(catalogo)
+      })
     )
   }
-
   buttonPay.onclick = () => {
     let params = new URLSearchParams()
-    params.append('type', 'cart')
-    location.href = '/html/PaginaPagar/pagar_producto.html?' + params.toString()
-  }     
+    params.append("type", "cart")
+    location.href = "/html/PaginaPagar/pagar_producto.html?" + params.toString()
+  }
 }
 
 if (productosGuardados != null) {
@@ -55,15 +61,16 @@ if (productosGuardados != null) {
       return response.json()
     })
     .then((catalogo) => {
-      update(catalogo);
+      update(catalogo)
       buttonClean.onclick = () => {
         localStorage.clear()
         productosGuardados = []
-        update(catalogo);
-      } 
+        update(catalogo)
+      }
     })
-}
-else {
-  window.alert("Agregar un producto desde la sección de compras, antes de usar el carrito")
+} else {
+  window.alert(
+    "Agregar un producto desde la sección de compras, antes de usar el carrito"
+  )
   location.href = "/index.html"
 }

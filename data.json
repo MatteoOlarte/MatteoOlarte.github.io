@@ -355,7 +355,7 @@
     "id": "camisa_millonarios",
     "nombre": "Camiseta Local Millonarios",
     "imagen": "/img/deportiva/millonarios_home.png",
-    "info": "",
+    "info": "Si eres un verdadero hincha de Millonarios, no puedes dejar pasar esta oportunidad. Esta es la camiseta oficial de Millonarios, la que usan los jugadores en el campo de juego. Esta camiseta tiene el escudo del club estampado en el pecho y el logo de Adidas en la manga. Está hecha de poliéster ligero y resistente, con tecnología que absorbe el sudor y te mantiene fresco y seco. Además, tiene un diseño espectacular, con el azul característico de Millonarios y detalles en blanco y dorado que le dan un toque de elegancia y distinción. Esta camiseta es perfecta para alentar a Millonarios en el estadio o para mostrar tu pasión por el equipo más grande de Colombia. No lo dudes más y compra esta camiseta de Millonarios, ¡la mejor forma de demostrar tu amor por los embajadores!",
     "precio": 250000,
     "existencias": 100,
     "compras_totales": 150,
@@ -365,12 +365,23 @@
   {
     "id": "tenis_addidas1",
     "nombre": "Tenis Adizero Pro 3.0",
-    "imagen": "/img/deportiva/tenis_1.png",
+    "imagen": "/img/deportiva/tenis_adizero.jpg",
     "info": "Los Adizero Adios Pro 3 son la máxima expresión de los productos Adizero Racing. Fueron diseñados con y para atletas para lograr hazañas increíbles. Estos tenis de running adidas están diseñados para optimizar la eficiencia del running. Nuestras varillas ENERGYRODS de carbono ofrecen ligereza y firmeza para pasos ágiles y eficientes. La tecnología LIGHTSTRIKE PRO ultraliviana amortigua cada paso con las tres capas de espuma resistente que te ayudan a mantener la energía a largo plazo. Todo sobre una delgada suela de caucho textil para un agarre extraordinario en condiciones mojadas y secas.",
-    "precio": 1150999,
+    "precio": 1130999,
     "existencias": 100,
     "compras_totales": 150,
     "color": "rojo",
+    "tipo": "deportiva"
+  },
+  {
+    "id": "tenis_addidas2",
+    "nombre": "Tenis Adizero Pro 3.0",
+    "imagen": "/img/deportiva/tenis_adizero2.jpg",
+    "info": "Los Adizero Adios Pro 3 son la máxima expresión de los productos Adizero Racing. Fueron diseñados con y para atletas para lograr hazañas increíbles. Estos tenis de running adidas están diseñados para optimizar la eficiencia del running. Nuestras varillas ENERGYRODS de carbono ofrecen ligereza y firmeza para pasos ágiles y eficientes. La tecnología LIGHTSTRIKE PRO ultraliviana amortigua cada paso con las tres capas de espuma resistente que te ayudan a mantener la energía a largo plazo. Todo sobre una delgada suela de caucho textil para un agarre extraordinario en condiciones mojadas y secas.",
+    "precio": 1170999,
+    "existencias": 100,
+    "compras_totales": 150,
+    "color": "negro_verde",
     "tipo": "deportiva"
   },
   {
@@ -436,7 +447,7 @@
     "precio": 460999,
     "existencias": 100,
     "compras_totales": 150,
-    "color": "blanco",
+    "color": "rojo",
     "tipo": "deportiva"
   },
   {
@@ -605,7 +616,7 @@
     "tipo": "buzo"
   },
   {
-    "id": "zurdo_de_mierda",
+    "id": "hidden:petrosky",
     "nombre": "El Zurdo",
     "imagen": "/img/egg1.jpg",
     "info": "Gustavo Petro es un zurdo populista que quiere destruir la economía de Colombia con sus ideas socialistas y estatistas. Es un demagogo que se aprovecha de la ignorancia y la pobreza de la gente para prometerles un paraíso que nunca va a llegar. Es un enemigo de la libertad, la propiedad y el mercado, y un aliado de los narcos, los terroristas y los dictadores. Es un guerrillero como presidente, su precio representa lo q ha robado como presidente",
@@ -613,10 +624,10 @@
     "existencias": 1,
     "compras_totales": 9999,
     "color": null,
-    "tipo": "guerrillero"
+    "tipo": "politico"
   },
   {
-    "id": "my_doctor",
+    "id": "hidden:uribe",
     "nombre": "El Doctor",
     "imagen": "/img/egg2.jpg",
     "info": "El doctor Álvaro Uribe es un líder indiscutible de la derecha colombiana, un defensor de la libertad, la democracia y la seguridad. Su trayectoria política y profesional lo ha convertido en un referente nacional e internacional, que ha sabido enfrentar con valentía y firmeza los ataques de sus enemigos y las injusticias del sistema judicial. Su visión de país se basa en el respeto a la propiedad privada, el libre mercado, el estado de derecho y la soberanía nacional. Es un patriota que no se deja intimidar por las amenazas del socialismo, el narcoterrorismo y la corrupción. Uribe es el ejemplo de que se puede ser exitoso sin renunciar a los principios y valores que nos hacen grandes. Es el héroe que Colombia necesita y merece.",
@@ -624,6 +635,39 @@
     "existencias": 1,
     "compras_totales": 9999,
     "color": null,
-    "tipo": "doctor"
+    "tipo": "politico"
+  },
+  {
+    "id": "hidden:nieve",
+    "nombre": "Cocaina 5g",
+    "imagen": "/img/logos/logos2/img_1.jpg",
+    "info": "Disfruta la mejor de la mejor, 100% Colombina y natural, nada de esa mierda gringa del Crack",
+    "precio": 25000,
+    "existencias": 10000,
+    "compras_totales": 1000000,
+    "color": null,
+    "tipo": "drogas"
+  },
+  {
+    "id": "hidden:weed",
+    "nombre": "Weed",
+    "imagen": "/img/logos/logos2/img_2.jpg",
+    "info": "Weed is the best thing that ever happened to me, fo shizzle. It makes me feel relaxed, happy and creative. It helps me cope with stress, pain and boredom. It enhances my music, my food and my love life. Weed is not a drug, it's a plant. A gift from Mother Nature. A blessing from the Most High. Weed is my medicine, my inspiration and my friend. Weed is the reason I wake up every morning and the reason I sleep well at night. Weed is life, and life is good.🌿",
+    "precio": 25000,
+    "existencias": 10000,
+    "compras_totales": 1000000,
+    "color": null,
+    "tipo": "drogas"
+  },
+  {
+    "id": "hidden:meth",
+    "nombre": "Blue Meth",
+    "imagen": "/img/logos/logos2/img_3.jpg",
+    "info": "Walter White’s product is a highly pure and potent form of crystal methamphetamine, also known as meth, crystal, or pervitin. It has a distinctive blue color and a large crystal size, which earned it the street names Blue Sky, Big Blue, Blue Magic, or simply Blue. It is synthesized from pseudoephedrine, a common ingredient in cold medicines, using a reductive amination process that involves methylamine, aluminum amalgam, and mercury13. The purity of the product is estimated to be around 99.1%2, which makes it extremely addictive and dangerous. Walter White’s product has been dominating the meth market in the Southwestern United States, and has also been exported to other countries such as the Czech Republic. It is considered to be the signature product of the elusive kingpin known as Heisenberg, who is later revealed to be Walter White himself3. The DEA has been trying to track down and arrest Heisenberg and his associates for several years, but with little success. Walter White’s product is one of the most challenging and frustrating cases in the history of the DEA.",
+    "precio": 100000,
+    "existencias": 100,
+    "compras_totales": 2500000,
+    "color": null,
+    "tipo": "drogas"
   }
 ]
