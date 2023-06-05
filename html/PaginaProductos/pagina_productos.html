@@ -57,6 +57,7 @@
                     >¿Quienes Somos?</a
                   >
                 </li>
+
                 <li class="dropdown-item">
                   <a class="nav-link" href="/index.html#seccion_productos"
                     >Nuestros Productos</a
@@ -78,6 +79,12 @@
               </ul>
             </li>
 
+            <!--Separador-->
+            <li class="nav-item">
+              <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-black"></div>
+              <hr class="d-lg-none my-2 text-white-50" />
+            </li>
+
             <!--Comprar Camisas-->
             <li class="nav-item">
               <a href="#" class="nav-link btn_camisas"> Camisas </a>
@@ -90,10 +97,17 @@
             <li class="nav-item">
               <a href="#" class="nav-link btn_buzos"> Buzos </a>
             </li>
+            <!--Buscar Productos-->
+            <li class="nav-item">
+              <a href="#" class="nav-link btn_search">Buscar</a>
+            </li>
           </ul>
 
           <form class="d-flex">
-            <a href="/html/PaginaShoppingCart/shopping_cart.html" class="ml-xl-6">
+            <a
+              href="/html/PaginaShoppingCart/shopping_cart.html"
+              class="ml-xl-6"
+            >
               <button class="btn btn-light" type="button">
                 <i class="fa-solid fa-cart-shopping"></i>
                 Carrito De Compras
@@ -106,30 +120,35 @@
         </div>
       </div>
     </nav>
-    <br>
-    
+    <br />
+
     <!--Sección De Compras-->
     <section class="seccion_productos">
       <!--Filtrar Productos-->
       <div id="contenedor_filtros">
         <h3 id="tipo_ropa">Cargando...</h3>
         <p>Filtros</p>
-        
+
         <div class="filtro">
           <label for="filtro_nombre">Nombre</label>
-          <input type="text" id="filtro_nombre" placeholder="Nombre del producto" name="product_name">
+          <input
+            type="text"
+            id="filtro_nombre"
+            placeholder="Nombre del producto"
+            name="product_name"
+          />
         </div>
 
         <div class="filtro">
           <label for="filtro_precio">Precio Hasta</label>
-          <input type="number" id="filtro_precio" placeholder="Pecio maximo">
+          <input type="number" id="filtro_precio" placeholder="Pecio maximo" />
         </div>
 
         <div class="filtro">
           <label for="filtro_color">Color</label>
           <select name="colores" id="filtro_color">
-            <option value="none">Todos</option>   
-            <option value="amarillo">Amarillo</option>      
+            <option value="none">Todos</option>
+            <option value="amarillo">Amarillo</option>
             <option value="azul">Azul</option>
             <option value="blanco">Blanco</option>
             <option value="cafe">Cafe</option>
@@ -142,8 +161,10 @@
         </div>
 
         <div class="filtro">
-          <label for="filtro_busqueda"><i class="fa-solid fa-magnifying-glass"></i> Buscar</label>
-          <input type="text" id="filtro_busqueda" placeholder="Buscar...">
+          <label for="filtro_busqueda"
+            ><i class="fa-solid fa-magnifying-glass"></i> Buscar</label
+          >
+          <input type="text" id="filtro_busqueda" placeholder="Buscar..." />
         </div>
       </div>
 
@@ -157,15 +178,15 @@
       </div>
     </section>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr />
     <!--footer-->
     <footer class="py-5 bg-dark">
       <div class="container">

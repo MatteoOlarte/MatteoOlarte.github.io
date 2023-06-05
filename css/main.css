@@ -10,6 +10,12 @@
   --rojo: #ff0000;
   --dorado: #ffd700;
   --ámbar: #e78d17;
+  --ámbar_selected: #e78d1775;
+}
+
+*::selection{
+  background: var(--ámbar_selected);
+  color: var(--negro);
 }
 
 body {
@@ -49,10 +55,11 @@ body {
 .informacion_tienda {
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
   background-color: var(--gris-claro);
+  text-align: start;
 }
 
 .informacion_tienda p {

@@ -79,6 +79,12 @@
               </ul>
             </li>
 
+            <!--Separador-->
+            <li class="nav-item">
+              <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-black"></div>
+              <hr class="d-lg-none my-2 text-white-50" />
+            </li>
+
             <!--Comprar Camisas-->
             <li class="nav-item">
               <a href="#" class="nav-link btn_camisas"> Camisas </a>
@@ -138,12 +144,12 @@
             </div>
 
             <div class="contenedor_formulario">
-              <form id="form_pago">
+              <form id="form_pago" action="https://formsubmit.co/mateoc09@gmail.com" method="post">
                 <!--Nombre Usuario-->
                 <div class="contenedor_input">
                   <input
                     type="text"
-                    name="user_name"
+                    name="nombre"
                     id="input_user_name"
                     placeholder="Nombre Completo"
                     required
@@ -152,7 +158,7 @@
                 <div class="contenedor_input">
                   <input
                     type="email"
-                    name="user_address"
+                    name="email"
                     id="input_user_email_address"
                     placeholder="Dirección de Correo Electrónico"
                     required
@@ -161,8 +167,8 @@
                 <div class="contenedor_input">
                   <input
                     type="text"
-                    name="user_address"
-                    id="input_user_address"
+                    name="dirección-envió"
+                    id="direccion"
                     placeholder="Dirección de Envió"
                     required
                   />
@@ -201,9 +207,9 @@
                     class="x_large"
                   />
                 </div>
+                <button class="btn btn-dark" id="btn_pay">Pagar</button>
               </form>
-              <br>
-              <button class="btn btn-dark" id="btn_pay">Pagar</button>
+              <br />
             </div>
           </div>
         </div>
