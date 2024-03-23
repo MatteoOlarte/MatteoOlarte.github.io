@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.language": "es, en",
+		"files.autoSave": "afterDelay",
+		"editor.wordWrap": "on",
+		"cSpell.caseSensitive": false,
+		"editor.tabSize": 2,
+		"cSpell.words": [
+			"andresito",
+			"insosuke",
+			"persourban"
+		],
+		"prettier.semi": false,
+		"editor.linkedEditing": true
+	}
+}
